@@ -8,37 +8,59 @@ import {
   FaJs,
   FaSass,
   FaWordpress,
+  FaGit,
+  FaUniversalAccess,
 } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 
 const technologies = [
   {
     name: "React",
-    icon: <FaReact className="w-12 h-12 text-blue-400" />,
+    icon: <FaReact aria-hidden="true" className="w-12 h-12 text-blue-400" />,
     color: "bg-blue-100",
   },
   {
     name: "Node.js",
-    icon: <FaNodeJs className="w-12 h-12 text-green-600" />,
+    icon: <FaNodeJs aria-hidden="true" className="w-12 h-12 text-green-600" />,
     color: "bg-green-100",
   },
   {
     name: "JavaScript",
-    icon: <FaJs className="w-12 h-12 text-yellow-500" />,
+    icon: <FaJs aria-hidden="true" className="w-12 h-12 text-yellow-500" />,
     color: "bg-yellow-100",
   },
   {
     name: "HTML5",
-    icon: <FaHtml5 className="w-12 h-12 text-orange-500" />,
+    icon: <FaHtml5 aria-hidden="true" className="w-12 h-12 text-orange-500" />,
     color: "bg-orange-100",
   },
   {
     name: "SASS",
-    icon: <FaSass className="w-12 h-12 text-rose-600" />,
+    icon: <FaSass aria-hidden="true" className="w-12 h-12 text-rose-600" />,
     color: "bg-rose-200",
   },
   {
-    name: "Wordpress",
-    icon: <FaWordpress className="w-12 h-12 text-gray-700" />,
+    name: "Tailwind CSS",
+    icon: (
+      <SiTailwindcss aria-hidden="true" className="w-12 h-12 text-blue-500" />
+    ),
+    title: "Tailwind CSS",
+    color: "bg-blue-100",
+  },
+
+  {
+    name: "WCAG 2.2",
+    icon: (
+      <FaUniversalAccess
+        aria-hidden="true"
+        className="w-12 h-12 text-gray-700"
+      />
+    ),
+    color: "bg-indigo-100",
+  },
+  {
+    name: "Git",
+    icon: <FaGit aria-hidden="true" className="w-12 h-12 text-gray-700" />,
     color: "bg-gray-100",
   },
 ];
@@ -48,7 +70,7 @@ export default function Tech() {
     <section className="py-16 bg-gray-50">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl text-center mb-12">Teknologier</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-6">
           {technologies.map((tech, index) => (
             <div
               key={index}

@@ -17,10 +17,10 @@ function start() {
             alt="profile picture"
           />
           <h1 className="text-4xl text-gray-800"> Hanna Mustonen </h1>
-          <h3 className="text-2xl text-black-700 font-light mt-2">
+          <h2 className="text-2xl text-black-700 font-light mt-2">
             {" "}
             Webbutveckling, GDPR, WCAG 2.2{" "}
-          </h3>
+          </h2>
           <p className="text-xl text-gray-800 mt-4 font-light">
             {" "}
             Jag är nyexaminerad Webbutvecklare inom E-handel med kunskap inom
@@ -30,7 +30,7 @@ function start() {
           </p>
           <div className="m-6 p-4 flex flex-col md:flex-row justify-center">
             <a
-              className="bg-indigo-700 px-8 py-2 m-4 rounded-3xl text-white font-semibold uppercase tracking-wide flex items-center justify-center border-2 border-transparent hover:opacity-85 focus:outline focus-visible:outline-4 focus:ring-4"
+              className="bg-indigo-500 px-8 py-2 m-4 rounded-3xl text-white font-semibold uppercase tracking-wide flex items-center justify-center border-2 border-transparent hover:opacity-85  focus:outline-none focus:ring-4 focus:ring-black"
               href="mailto:mustonenhanna@icloud.com"
               aria-label="Skicka email"
             >
@@ -48,7 +48,7 @@ function start() {
               <FaDownload className="w-5 h-5 ml-2" />
             </a> */}
             <a
-              className="bg-indigo-700 px-8 py-2 m-4 rounded-3xl text-white font-semibold uppercase tracking-wide flex items-center justify-center border-2 border-transparent hover:opacity-85 focus:outline focus-visible:outline-4 focus:ring-4"
+              className="bg-indigo-500 px-8 py-2 m-4 rounded-3xl text-white font-semibold uppercase tracking-wide flex items-center justify-center border-2 border-transparent hover:opacity-85 focus:outline-none focus:ring-4 focus:ring-black"
               href="https://www.linkedin.com/in/hanna-m-573776247"
               target="_blank"
               rel="noopener noreferrer"
@@ -58,7 +58,7 @@ function start() {
               <FaLinkedin className="w-6 h-6 ml-2" />
             </a>
             <a
-              className="bg-indigo-700 px-8 py-2 m-4 rounded-3xl text-white font-semibold uppercase tracking-wide flex items-center justify-center border-2 border-transparent hover:opacity-85 focus:outline focus-visible:outline-4 focus:ring-4"
+              className="bg-indigo-500 px-8 py-2 m-4 rounded-3xl text-white font-semibold uppercase tracking-wide flex items-center justify-center border-2 border-transparent hover:opacity-85 focus:outline-none focus:ring-4 focus:ring-black"
               href="https://github.com/hanna01m"
               target="_blank"
               rel="noopener noreferrer"

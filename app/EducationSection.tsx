@@ -19,7 +19,7 @@ const educationData = [
     title: "Webbtillgänglighet – WCAG 2.2",
     type: "Kurs",
     description:
-      "Specialiserad utbildning inom webbtillgänglighet enligt WCAG 2.2. Fokus på inkluderande design, användbarhet och hur digitala tjänster kan anpassas för alla användare, inklusive personer med funktionsnedsättningar.",
+      "Utbildning inom webbtillgänglighet enligt WCAG 2.2 med fokus på inkluderande design. Praktisk erfarenhet av manuell tillgänglighetsgranskning samt verktyg som Axe DevTools, Google Lighthouse och WAVE.",
     logo: "/project-img/smh-logo2.png",
   },
 ];
